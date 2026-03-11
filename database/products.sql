@@ -1,0 +1,12 @@
+CREATE TABLE sistema_de_pedidos.products (
+    id INT UNSIGNED AUTO_INCREMENT NOT NULL,
+    name VARCHAR(150) NOT NULL,
+    description TEXT NULL,
+    price DECIMAL(10,2) NOT NULL DEFAULT 0.00,
+    stock INT UNSIGNED NOT NULL DEFAULT 0,
+    status ENUM('ACTIVE','INACTIVE') NOT NULL DEFAULT 'ACTIVE',
+    CONSTRAINT products_pk PRIMARY KEY (id)
+)
+ENGINE=InnoDB
+DEFAULT CHARSET=utf8mb4
+COLLATE=utf8mb4_0900_ai_ci;
