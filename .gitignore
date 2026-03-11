@@ -1,0 +1,63 @@
+# ==============================
+# Sistema Operacional
+# ==============================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ==============================
+# Arquivos temporários
+# ==============================
+
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+
+# ==============================
+# Bancos locais (não versionar)
+# ==============================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Arquivos de ambiente
+# ==============================
+
+.env
+.env.local
+
+# ==============================
+# IDEs e editores
+# ==============================
+
+# VS Code
+.vscode/
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ==============================
+# Ferramentas de banco de dados
+# ==============================
+
+# DBeaver
+.dbeaver/
+.metadata/
+
+# MySQL Workbench
+*.mwb
